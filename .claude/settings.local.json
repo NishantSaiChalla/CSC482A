@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir \"c:\\\\Users\\\\nisha\\\\Desktop\\\\coop project\\\\CSC_482A\")",
+      "Bash(python main.py --quick --N 100)",
+      "Bash(python main.py --quick --N 100 --no-plots)",
+      "Bash(mkdir -p results)",
+      "Bash(python main.py --save-csv results/results.csv)"
+    ]
+  }
+}
